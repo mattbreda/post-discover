@@ -1,0 +1,170 @@
+{
+    "rootData": {
+        "startQuestions":[
+            {"question":"dark and experimental","id":"lift_your_skinny_fists"},
+            {"question":"pretty and accessible","id":"the_earth_is_not_a_cold_dead_place"},
+            {"question":"for metalheads","id":"geneva"}
+        ]
+    },
+    "mapDataSet": [
+        {
+            "id": "lift_your_skinny_fists",
+            "album": "Lift Your Skinny Fists Like Antennas to Heaven",
+            "artist": "Godspeed You! Black Emperor",
+            "art": "https://upload.wikimedia.org/wikipedia/en/d/d3/Liftyrskinnyfists.jpg",
+            "spoti": "",
+            "questions": [
+                {
+                    "text": "This is perfect",
+                    "id": "f_a_inf"
+                },
+                {
+                    "text": "A bit less ambient",
+                    "id": "mogwai_young_team"
+                }
+            ],
+            "parent": "root",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/Lift_Your_Skinny_Fists_Like_Antennas_to_Heaven"
+        },
+        {
+            "id": "f_a_inf",
+            "album": "F♯ A♯ ∞",
+            "artist": "Godspeed You! Black Emperor",
+            "art": "https://upload.wikimedia.org/wikipedia/en/4/4a/F_sharp_a_sharp_infinity_vinyl_cover_street_sighn.jpg",
+            "spoti": "",
+            "questions": [
+                {
+                    "text": "More <italic>Heart</italic>",
+                    "id": "the_bees_made_honey"
+                },
+                {
+                    "text": "More <italic>Grails</italic>",
+                    "id": "deep_politics"
+                },
+                {
+                    "text": "More <italic>Zion</italic>",
+                    "id": "he_has_left_us_alone"
+                }
+            ],
+            "parent": "lift_your_skinny_fists",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/F%E2%99%AF_A%E2%99%AF_%E2%88%9E"
+        },
+        {
+            "id": "the_bees_made_honey",
+            "album": "The Bees Made Honey in the Lion's Skull",
+            "artist": "Earth",
+            "art": "https://upload.wikimedia.org/wikipedia/en/7/75/Earth-TheBees.jpg",
+            "spoti": "",
+            "questions": [],
+            "parent": "f_a_inf",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/The_Bees_Made_Honey_in_the_Lion%27s_Skull"
+        },
+        {
+            "id": "deep_politics",
+            "album": "Deep Politics",
+            "artist": "Grails",
+            "art": "https://upload.wikimedia.org/wikipedia/en/d/db/Deeppoliticsgrailsalbum.jpg",
+            "spoti": "",
+            "questions": [],
+            "parent": "f_a_inf",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/Deep_Politics"
+        },
+        {
+            "id": "he_has_left_us_alone",
+            "album": "He Has Left Us Alone but Shafts of Light Sometimes Grace the Corner of Our Rooms…",
+            "artist": "Thee Silver Mt. Zion Memorial Orchestra",
+            "art": "https://upload.wikimedia.org/wikipedia/en/7/79/Mtzionhehasleft.jpg",
+            "spoti": "",
+            "questions": [
+                {
+                    "text": "More vacuous",
+                    "id": "soundtrack_for_the_blind"
+                },
+                {
+                    "text": "More melodic ",
+                    "id": "spirit_of_eden"
+                },
+                {
+                    "text": "More more melodic",
+                    "id": "laughing_stock"
+                }
+            ],
+            "parent": "f_a_inf",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/He_Has_Left_Us_Alone_but_Shafts_of_Light_Sometimes_Grace_the_Corner_of_Our_Rooms..."
+        },
+        {
+            "id": "soundtrack_for_the_blind",
+            "album": "Soundtracks for the Blind",
+            "artist": "Swans",
+            "art": "https://upload.wikimedia.org/wikipedia/en/a/ad/Soundtracks_for_the_Blind.jpg",
+            "spoti": "",
+            "questions": [],
+            "parent": "he_has_left_us_alone",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/Soundtracks_for_the_Blind"
+        },
+        {
+            "id": "spirit_of_eden",
+            "album": "Spirit of Eden",
+            "artist": "Talk Talk",
+            "art": "https://upload.wikimedia.org/wikipedia/en/b/b0/Talk_Talk_-_Spirit_of_Eden_cover.jpg",
+            "spoti": "",
+            "questions": [],
+            "parent": "he_has_left_us_alone",
+            "category": "early_post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/Spirit_of_Eden"
+        },
+        {
+            "id": "laughing_stock",
+            "album": "Laughing Stock",
+            "artist": "Talk Talk",
+            "art": "https://upload.wikimedia.org/wikipedia/en/b/bd/Laughing_stock.jpg",
+            "spoti": "",
+            "questions": [],
+            "parent": "he_has_left_us_alone",
+            "category": "early_post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/Laughing_Stock"
+        },
+        {
+            "id": "the_earth_is_not_a_cold_dead_place",
+            "album": "he Earth Is Not a Cold Dead Place",
+            "artist": "Explosions in the Sky",
+            "art": "https://upload.wikimedia.org/wikipedia/en/f/f9/The_earth_is_not_a_cold_dead_place.jpg",
+            "spoti": "",
+            "questions": [
+                {
+                    "text": "More ambient",
+                    "id": "kenotic"
+                },
+                {
+                    "text": "This is exllent",
+                    "id": "s_t"
+                },
+                {
+                    "text": "With more strings",
+                    "id": "s_t"
+                },
+                {
+                    "text": "With more electronics",
+                    "id": "s_t"
+                },
+                {
+                    "text": "With more distorted guitars",
+                    "id": "s_t"
+                },
+                {
+                    "text": "With more distorted guitars",
+                    "id": "s_t"
+                }
+            ],
+            "parent": "root",
+            "category": "post-rock",
+            "wiki": "https://en.wikipedia.org/wiki/The_Earth_Is_Not_a_Cold_Dead_Place"
+        }
+    ]
+}
