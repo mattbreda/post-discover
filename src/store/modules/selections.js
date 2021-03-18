@@ -1,10 +1,10 @@
 import data from '@/api/data.js';
-/* import _ from 'lodash';
- */
+
 const state = {
   datumSelected: null,
   fetchingData: true,
-  dataSet: null
+  dataSet: null,
+  lastAlbum: null
 };
 
 const mutations = {
@@ -17,11 +17,15 @@ const mutations = {
   fetchingData(state, value) {
     state.fetchingData = value;
   },
+  setLastAlbum(state, value) {
+    state.lastAlbum = value;
+  },
 };
 const getters = {
   datumSelected: state => state.datumSelected,
   fetchingData: state => state.fetchingData,
-  getDataSet: state => state.dataSet
+  getDataSet: state => state.dataSet,
+  getLastAlbum: state => state.lastAlbum
 };
 
 const actions = {
@@ -30,6 +34,10 @@ const actions = {
   },
   setData({ commit }, value) {
     commit('setData', value);
+  },
+  setLastAlbum({ commit }, value) {
+    console.log(value)
+    commit('setLastAlbum', value);
   },
   getData({ commit }) {
     data.getData().then(d => {
